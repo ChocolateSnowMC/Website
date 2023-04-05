@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#board {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 0; /* セルの間のスペースを取り除く */
+}
+
+.cell {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  border: 1px solid #ccc; /* セルにボーダーを追加する */
+  font-size: 16px; /* セルに再度フォントサイズを設定する */
+}
+
+.cell.on {
+  background-color: black;
+}
+
+.timer {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#board {
+  width: 332px;
+}
